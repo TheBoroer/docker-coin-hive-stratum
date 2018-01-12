@@ -9,4 +9,4 @@ RUN npm install --save coin-hive-stratum
 
 ADD ./proxy.js proxy.js
 
-CMD ["pm2","start","/stratum/proxy.js","--name=proxy","&&","pm2","logs","all"]
+CMD ["pm2","start","/stratum/proxy.js","--name=proxy","--no-daemon","--log-date-format='YYYY-MM-DD HH:mm'"]
