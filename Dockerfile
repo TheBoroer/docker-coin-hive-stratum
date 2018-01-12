@@ -1,6 +1,6 @@
 FROM node:8
 
-WORKDIR /coin-hive-stratum
+WORKDIR /ch-stratum-proxy
 
 RUN npm install -g pm2
 RUN pm2 install pm2-logrotate
