@@ -1,6 +1,6 @@
 const Proxy = require("coin-hive-stratum");
 const proxy = new Proxy({
-  host: "pool.supportxmr.com",
-  port: 3333
+  host: "pool.electroneum.hashvault.pro",
+  port: 80
 });
 proxy.listen(80);
